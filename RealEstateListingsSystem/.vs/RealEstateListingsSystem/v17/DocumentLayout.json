@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|solutionrelative:viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-14T08:38:58.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-14T08:38:55.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-14T08:38:53.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-14T08:38:48.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-14T08:38:44.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-14T08:38:39.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\ViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\ViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T08:38:33.164Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
