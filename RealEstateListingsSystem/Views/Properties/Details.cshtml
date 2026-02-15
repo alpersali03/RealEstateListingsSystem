@@ -1,0 +1,103 @@
+﻿@model RealEstateListingsSystem.Models.Property
+
+@{
+    ViewData["Title"] = "Property Details";
+}
+
+<h2 class="mb-4">Property Details</h2>
+
+<div class="card shadow">
+    <div class="card-header bg-dark text-white">
+        <h4 class="mb-0">@Model.Title</h4>
+    </div>
+
+    <div class="card-body">
+
+        <div class="row mb-3">
+            <div class="col-md-3 fw-bold">
+                Description:
+            </div>
+            <div class="col-md-9">
+                @Model.Description
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-3 fw-bold">
+                Price:
+            </div>
+            <div class="col-md-9">
+                €@Model.Price.ToString("N0")
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-3 fw-bold">
+                Size:
+            </div>
+            <div class="col-md-9">
+                @Model.Size sqm
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-3 fw-bold">
+                Address:
+            </div>
+            <div class="col-md-9">
+                @Model.Address
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-3 fw-bold">
+                Property Type:
+            </div>
+            <div class="col-md-9">
+                @Model.PropertyType?.Name
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-3 fw-bold">
+                Agent Name:
+            </div>
+            <div class="col-md-9">
+                @Model.Agent?.FullName
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-3 fw-bold">
+                Agent Email:
+            </div>
+            <div class="col-md-9">
+                @Model.Agent?.Email
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-3 fw-bold">
+                Agent Phone:
+            </div>
+            <div class="col-md-9">
+                @Model.Agent?.PhoneNumber
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card-footer">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+            Edit
+        </a>
+
+        <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">
+            Delete
+        </a>
+
+        <a asp-action="Index" class="btn btn-secondary">
+            Back to List
+        </a>
+    </div>
+</div>
