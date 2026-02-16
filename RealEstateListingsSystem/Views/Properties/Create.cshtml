@@ -1,0 +1,73 @@
+﻿@model RealEstateListingsSystem.Models.Property
+
+@{
+    ViewData["Title"] = "Create Property";
+}
+
+<h2 class="mb-4">Create New Property</h2>
+
+<form asp-action="Create" method="post">
+
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label"></label>
+        <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Price" class="form-label"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Size" class="form-label"></label>
+        <input asp-for="Size" class="form-control" />
+        <span asp-validation-for="Size" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Address" class="form-label"></label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PropertyTypeId" class="form-label">Property Type</label>
+        <select asp-for="PropertyTypeId" class="form-control"
+                asp-items="ViewBag.PropertyTypes">
+            <option value="">-- Select Property Type --</option>
+        </select>
+        <span asp-validation-for="PropertyTypeId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="AgentId" class="form-label">Agent</label>
+        <select asp-for="AgentId" class="form-control"
+                asp-items="ViewBag.Agents">
+            <option value="">-- Select Agent --</option>
+        </select>
+        <span asp-validation-for="AgentId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">
+        Create
+    </button>
+
+    <a asp-action="Index" class="btn btn-secondary">
+        Cancel
+    </a>
+
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
