@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using RealEstateListingsSystem.Data;
+using RealEstateListingsSystem.Models;
 
 namespace RealEstateListingsSystem.Controllers
 {
@@ -26,5 +28,42 @@ namespace RealEstateListingsSystem.Controllers
 			}
 			return View(property);
 		}
+		[HttpGet]
+		public IActionResult Create()
+		{
+			ViewBag.PropertyTypes = new SelectList(_context.PropertyTypes, "Id", "Name");
+			ViewBag.Agents = new SelectList(_context.Agents, "Id", "FullName");
+
+			return View();
+		}
+
+		[HttpPost]
+		public IActionResult Create(Property property)
+		{
+			if (!ModelState.IsValid)
+			{
+				var errors = ModelState
+					.SelectMany(x => x.Value.Errors)
+					.Select(x => x.ErrorMessage)
+					.ToList();
+
+				foreach (var error in errors)
+				{
+					Console.WriteLine(error);
+				}
+
+				ViewBag.PropertyTypes = new SelectList(_context.PropertyTypes, "Id", "Name");
+				ViewBag.Agents = new SelectList(_context.Agents, "Id", "FullName");
+
+				return View(property);
+			}
+
+			_context.Properties.Add(property);
+			_context.SaveChanges();
+
+			return RedirectToAction(nameof(Index));
+		}
+
+
 	}
 }

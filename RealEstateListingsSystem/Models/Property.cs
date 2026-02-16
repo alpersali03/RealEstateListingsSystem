@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using RealEstateListingsSystem.Common;
 using System.ComponentModel.DataAnnotations;
 
@@ -40,12 +41,12 @@ namespace RealEstateListingsSystem.Models
 
 		[Required]
 		public int PropertyTypeId { get; set; }
-
+		[ValidateNever]
 		public PropertyType PropertyType { get; set; }
 
 		[Required]
 		public int AgentId { get; set; }
-
+		[ValidateNever]
 		public Agent Agent { get; set; }
 	}
 }
