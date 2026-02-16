@@ -42,16 +42,6 @@ namespace RealEstateListingsSystem.Controllers
 		{
 			if (!ModelState.IsValid)
 			{
-				var errors = ModelState
-					.SelectMany(x => x.Value.Errors)
-					.Select(x => x.ErrorMessage)
-					.ToList();
-
-				foreach (var error in errors)
-				{
-					Console.WriteLine(error);
-				}
-
 				ViewBag.PropertyTypes = new SelectList(_context.PropertyTypes, "Id", "Name");
 				ViewBag.Agents = new SelectList(_context.Agents, "Id", "FullName");
 
@@ -63,7 +53,6 @@ namespace RealEstateListingsSystem.Controllers
 
 			return RedirectToAction(nameof(Index));
 		}
-
 
 	}
 }
