@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\views\\properties\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|solutionrelative:views\\properties\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|solutionrelative:controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\data\\configuration\\propertyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|solutionrelative:data\\configuration\\propertyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|solutionrelative:models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\views\\properties\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|solutionrelative:views\\properties\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\models\\propertytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\views\\properties\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|solutionrelative:views\\properties\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\data\\configuration\\propertyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|solutionrelative:data\\configuration\\propertyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C75F2828-68FF-4A1F-B1F5-1526B8EBA10F}|RealEstateListingsSystem.csproj|c:\\users\\pc\\documents\\github\\realestatelistingssystem\\realestatelistingssystem\\data\\configuration\\propertytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,23 +106,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Properties\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Properties\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Properties\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Properties\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwv0EAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-17T11:08:07.218Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Properties\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Properties\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Properties\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Properties\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-17T06:22:26.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Properties\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Properties\\Create.cshtml",
@@ -122,12 +148,11 @@
               "RelativeToolTip": "Views\\Properties\\Create.cshtml",
               "ViewState": "AgIAACYAAAAAAAAAAADwv0kAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T19:32:25.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T19:32:25.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "PropertyConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Data\\Configuration\\PropertyConfiguration.cs",
               "RelativeDocumentMoniker": "Data\\Configuration\\PropertyConfiguration.cs",
@@ -140,33 +165,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PropertiesController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Controllers\\PropertiesController.cs",
               "RelativeDocumentMoniker": "Controllers\\PropertiesController.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Controllers\\PropertiesController.cs",
               "RelativeToolTip": "Controllers\\PropertiesController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAlwCAAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAADwv2QAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-15T15:16:29.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Property.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Models\\Property.cs",
               "RelativeDocumentMoniker": "Models\\Property.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Models\\Property.cs",
               "RelativeToolTip": "Models\\Property.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAzwCsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwCsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-14T12:50:35.099Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PropertyType.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Models\\PropertyType.cs",
               "RelativeDocumentMoniker": "Models\\PropertyType.cs",
@@ -174,12 +207,11 @@
               "RelativeToolTip": "Models\\PropertyType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T12:53:45.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-14T12:53:45.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PropertyTypeConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Data\\Configuration\\PropertyTypeConfiguration.cs",
               "RelativeDocumentMoniker": "Data\\Configuration\\PropertyTypeConfiguration.cs",
@@ -187,12 +219,11 @@
               "RelativeToolTip": "Data\\Configuration\\PropertyTypeConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T14:06:37.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-14T14:06:37.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Properties\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Properties\\Index.cshtml",
@@ -200,12 +231,11 @@
               "RelativeToolTip": "Views\\Properties\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-15T15:45:41.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T15:45:41.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Properties\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Properties\\Details.cshtml",
@@ -213,12 +243,11 @@
               "RelativeToolTip": "Views\\Properties\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-15T15:45:03.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T15:45:03.939Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "20260214143703_Initial.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Migrations\\20260214143703_Initial.cs",
               "RelativeDocumentMoniker": "Migrations\\20260214143703_Initial.cs",
@@ -226,12 +255,11 @@
               "RelativeToolTip": "Migrations\\20260214143703_Initial.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T14:37:03.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-14T14:37:03.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Agent.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Models\\Agent.cs",
               "RelativeDocumentMoniker": "Models\\Agent.cs",
@@ -243,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "AgentConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Data\\Configuration\\AgentConfiguration.cs",
               "RelativeDocumentMoniker": "Data\\Configuration\\AgentConfiguration.cs",
@@ -255,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -267,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -279,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "RealEstateDbContext.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Data\\RealEstateDbContext.cs",
               "RelativeDocumentMoniker": "Data\\RealEstateDbContext.cs",
@@ -291,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ValidationConstants.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Common\\ValidationConstants.cs",
               "RelativeDocumentMoniker": "Common\\ValidationConstants.cs",
@@ -303,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -315,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -327,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -339,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -351,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -363,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -375,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\RealEstateListingsSystem\\RealEstateListingsSystem\\ViewModels\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\ErrorViewModel.cs",
