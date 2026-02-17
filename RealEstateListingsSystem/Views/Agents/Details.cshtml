@@ -1,0 +1,41 @@
+﻿@model RealEstateListingsSystem.Models.Agent
+
+@{
+    ViewData["Title"] = "Agent Details";
+}
+
+<h2 class="mb-4">Agent Details</h2>
+
+<div class="card shadow">
+
+    <div class="card-header bg-dark text-white">
+        <h4>@Model.FullName</h4>
+    </div>
+
+    <div class="card-body">
+
+        <dl class="row">
+
+            <dt class="col-sm-3">Full Name</dt>
+            <dd class="col-sm-9">@Model.FullName</dd>
+
+            <dt class="col-sm-3">Email</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
+
+            <dt class="col-sm-3">Phone Number</dt>
+            <dd class="col-sm-9">@Model.PhoneNumber</dd>
+
+        </dl>
+
+    </div>
+
+    <div class="card-footer">
+
+        <a asp-action="Index"
+           class="btn btn-secondary">
+            Back to List
+        </a>
+
+    </div>
+
+</div>
