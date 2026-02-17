@@ -1,0 +1,35 @@
+﻿@model IEnumerable<RealEstateListingsSystem.Models.PropertyType>
+
+@{
+    ViewData["Title"] = "Property Types";
+}
+
+<h2 class="mb-4">Property Types</h2>
+
+<table class="table table-striped table-bordered">
+
+    <thead class="table-dark">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var propertyType in Model)
+        {
+            <tr>
+                <td>@propertyType.Id</td>
+                <td>@propertyType.Name</td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        No property types found.
+    </div>
+}
