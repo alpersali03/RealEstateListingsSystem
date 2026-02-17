@@ -15,7 +15,7 @@ namespace RealEstateListingsSystem.Controllers
 		}
 		public IActionResult Index()
 		{
-			var properties = _context.Properties.Include(p=>p.Agent).Include(p=>p.PropertyType).ToList();
+			var properties = _context.Properties.Include(p => p.Agent).Include(p => p.PropertyType).ToList();
 			return View(properties);
 		}
 
@@ -53,6 +53,68 @@ namespace RealEstateListingsSystem.Controllers
 
 			return RedirectToAction(nameof(Index));
 		}
+		[HttpGet]
+		public IActionResult Edit(int id)
+		{
+			var property = _context.Properties.Find(id);
+			if (property == null)
+			{
+				return NotFound();
+			}
+			ViewBag.PropertyTypes = new SelectList(_context.PropertyTypes, "Id", "Name", property.PropertyTypeId);
+			ViewBag.Agents = new SelectList(_context.Agents, "Id", "FullName", property.AgentId);
+			return View(property);
+		}
+		[HttpPost]
+		public IActionResult Edit(int id, Property property)
+		{
+			if (id != property.Id)
+			{
+				return NotFound();
+			}
+			if (!ModelState.IsValid)
+			{
+				ViewBag.PropertyTypes = new SelectList(_context.PropertyTypes, "Id", "Name", property.PropertyTypeId);
+				ViewBag.Agents = new SelectList(_context.Agents, "Id", "FullName", property.AgentId);
+				return View(property);
+			}
+			_context.Properties.Update(property);
+			_context.SaveChanges();
+			return RedirectToAction(nameof(Index));
+
+		}
+		[HttpGet]
+		public IActionResult Delete(int id)
+		{
+			var property = _context.Properties
+				.Include(p => p.Agent)
+				.Include(p => p.PropertyType)
+				.FirstOrDefault(p => p.Id == id);
+
+			if (property == null)
+			{
+				return NotFound();
+			}
+
+			return View(property);
+		}
+
+		[HttpPost]
+		public IActionResult DeleteConfirmed(int id)
+		{
+			var property = _context.Properties.Find(id);
+
+			if (property == null)
+			{
+				return NotFound();
+			}
+
+			_context.Properties.Remove(property);
+			_context.SaveChanges();
+
+			return RedirectToAction(nameof(Index));
+		}
+
 
 	}
 }
